@@ -12,32 +12,50 @@
 
 <body>
     <h1>Calculator</h1>
-    <input type="text" id="display">
-    <input type="button" id="clear_result" value="c" onclick="clearScreen()" class="clear">
-    <br>
-    <button class="addOne">1</button>
-    <button class="addTwo">2</button>
-    <button class="addThree">3</button>
-    <button class="operations">+</button>
-    <br>
-    <button class="addFour">4</button>
-    <button class="addFive">5</button>
-    <button class="addSix">6</button>
-    <button class="operations">-</button>
-    <br>
-    <button class="addSeven">7</button>
-    <button class="addEight">8</button>
-    <button class="addNine">9</button>
-    <button class="operations">*</button>
-    <br>
-    <button class="addZero">0</button>
-    <button class="addBracket">()</button>
-    <button class="addDecimal">.</button>
-    <button class="operations">/</button>
-    
-    
+    <div class="container">
+        <table>
+            <tr>
+                <td colspan="3"><input type="text" id="result" class="screen"></td>
+                <td><input type="button" id="delect_result" value="x" onclick="myFunction()" class="delect"></td>
+            </tr>
+            <tr>
+                <td><input type="button" id='clear_result' value="c" onclick="clearScreen()" class="clear"></td>
+                <td><input type="button" value="()" onclick="display('()')" class="bracket" ></td>
+                <td><input type="button" value="%" onclick="display('%')" class="operators" ></td>
+                <td><input type="button" value="&divide;" onclick="display('/')" class="operators" ></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="display('7')" class="numbers"></td>
+                <td><input type="button" value="8" onclick="display('8')" class="number"></td>
+                <td><input type="button" value="9" onclick="display('9')" class="number"></td>
+                <td><input type="button" value="&times;" onclick="display('*')" class="operators"></td>
+            </tr>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </table>
+
+    </div>
+    
     <!-- Moved the script element from the head to the body -->
     <script src="/Assets/index.js"></script>
 </body>
