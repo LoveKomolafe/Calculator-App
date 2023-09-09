@@ -13,6 +13,7 @@
 <body>
     <h1>Calculator</h1>
     <div class="container">
+<<<<<<< HEAD
         <table>
             <tr>
                 <td colspan="3"><input type="text" id="result" class="screen"></td>
@@ -51,8 +52,62 @@
 
         </table>
 
+=======
+
+        <div class="calculator">
+            <!-- Would Come back to this, Please don't delete -->
+            <!-- <div class="display-screen">
+                <div id="display"></div>
+
+                <div>
+                    <ion-icon name="backspace-outline"></ion-icon>
+                </div>
+            </div> -->
+
+            <div class="buttons">
+                <table>
+                    <tr>
+                        <td colspan="3"><input type="text" id="result" class="screen"></td>
+                        <td><button id="delect_result" value="x" onclick="myFunction()" class="delete">X</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id='clear_result' value="c" onclick="clearScreen()" class="clear">C</button></td>
+                        <td><button value="()" onclick="display('()')" class="bracket">()</button></td>
+                        <td><button value="%" onclick="display('%')" class="operators">%</button></td>
+                        <td><button value="&divide;" onclick="display('/')" class="operators">&divide;</button></td>
+                    </tr>
+                    <tr>
+                        <td><button value="7" onclick="display('7')" class="numbers">7</value=></button></td>
+                        <td><button value="8" onclick="display('8')" class="number">8</button></td>
+                        <td><button value="9" onclick="display('9')" class="number">9</button></td>
+                        <td><button value="&times;" onclick="display('*')" class="operators">&times;</button></td>
+                    </tr>
+                    <tr>
+                        <td><button value="4" onclick="display('4')" class="numbers">4</button></td>
+                        <td><button value="5" onclick="display('5')" class="numbers">5</button></td>
+                        <td><button value="6" onclick="display('6')" class="numbers">6</button></td>
+                        <td><button value="&minus;" onclick="display('-')" class="operators">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button value="1" onclick="display('1')" class="numbers">1</button></td>
+                        <td><button value="2" onclick="display('2')" class="numbers">2</button></td>
+                        <td><button value="3" onclick="display('3')" class="numbers">3</button></td>
+                        <td><button value="&plus;" onclick="display('+')" class="operators">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button value="00" onclick="display('00')" class="numbers">00</button></td>
+                        <td><button value="0" onclick="display('0')" class="numbers">0</button></td>
+                        <td><button value="." onclick="display('.')" class="operators">.</button></td>
+                        <td><button value="&equals;" onclick="display('=')" class="operators">=</button></td>
+                    </tr>
+
+                </table>
+            </div>
+
+        </div>
+>>>>>>> 1056d70bd495a41321a56bceedcf2d7cc113ac9c
     </div>
-    
+
     <!-- Moved the script element from the head to the body -->
     <script src="/Assets/index.js"></script>
 </body>
