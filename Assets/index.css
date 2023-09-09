@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  transition: all 0.5s ease;
+}
+
+:root {
+  /* Shades of Green */
+  --green-1: #51cf66;
+  --green-2: #40c057;
+  --green-3: #37b24d;
+  --green-4: #2f9e44;
+  --green-5: #2b8a3e;
+
+  /* Shades of Lime, Incase green doesn't go */
+  --lime-1: #94d82d;
+  --lime-2: #82c91e;
+  --lime-3: #74b816;
+  --lime-4: #66a80f;
+  --lime-5: #5c940d;
+
+  /* We can try them out, any color that matches our design */
+
+  --neutral-color: #fff;
+  --bg-color: #212529;
+  --shadow-color1: #adb5bd;
+  --shadow-color2: #868e96;
+  --shadow-color3: #495057;
+
+  /* For the C value */
+  --red-1: #f03e3e;
+  --red-2: #e03131;
+
+  /* Colors Gotten from Open-color.io */
+}
+
+body {
+  font-family: sans-serif;
+}
