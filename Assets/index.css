@@ -56,8 +56,8 @@ body {
 
 
 .numbers{
-  background-color:#1b1f1f;
-  color:mintcream;
+  background-color:var(--bg-color);
+  color:var(--neutral-color);
   border-radius:50%;
   padding: 15px;
   height:40px;
@@ -73,8 +73,8 @@ body {
 }
 
 .operators{
-  background-color:#1b1f1f;
-  color:#51cf66;
+  background-color:var(--bg-color);
+  color:var(--green-2);
   border-radius:50%;
   padding: 15px;
   height:40px;
@@ -90,8 +90,8 @@ body {
 }
 
 .equals-to{
-  background-color:#51cf66;
-  color:mintcream;
+  background-color:var(--green-2);
+  color:var(--neutral-color);
   border-radius:50%;
   padding: 15px;
   height:40px;
@@ -107,8 +107,8 @@ body {
 }
 
 .bracket{
-  background-color:#1b1f1f;
-  color:#51cf66;
+  background-color:var(--bg-color);
+  color:var(--green-2);
   border-radius:50%;
   padding: 15px;
   height:40px;
@@ -124,8 +124,8 @@ body {
 }
 
 .clear{
-  background-color:#1b1f1f;
-  color:orangered;
+  background-color:var(--bg-color);
+  color:var(--red-1);
   border-radius:50%;
   padding: 15px;
   height:40px;
@@ -141,8 +141,8 @@ body {
 }
 
 .decimal{
-  background-color:#1b1f1f;
-  color:mintcream;
+  background-color:var(--bg-color);
+  color:var(--neutral-color);
   border-radius:50%;
   padding: 15px;
   height:40px;
