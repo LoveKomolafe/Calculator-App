@@ -41,7 +41,6 @@ body {
 }
 
 .numbers{
-  /* border: solid black 2px; */
   background-color:#1b1f1f;
   color:mintcream;
   border-radius:50%;
@@ -50,9 +49,95 @@ body {
   font-size: 20px;
   justify-content: center;
   text-align: center;
-  font-weight: bold;
+  /* font-weight: bold; */
   display: inline-flex;
   flex-direction: column;
   align-items: center;
   cursor:pointer;
+  border: none;
+}
+
+.operators{
+  background-color:#1b1f1f;
+  color:#51cf66;
+  border-radius:50%;
+  padding: 15px;
+  height:40px;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  /* font-weight: bold; */
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  cursor:pointer;
+  border: none;
+}
+
+.equals-to{
+  background-color:#51cf66;
+  color:mintcream;
+  border-radius:50%;
+  padding: 15px;
+  height:40px;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  /* font-weight: bold; */
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  cursor:pointer;
+  border: none;
+}
+
+.bracket{
+  background-color:#1b1f1f;
+  color:#51cf66;
+  border-radius:50%;
+  padding: 15px;
+  height:40px;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  /* font-weight: bold; */
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  cursor:pointer;
+  border: none;
+}
+
+.clear{
+  background-color:#1b1f1f;
+  color:orangered;
+  border-radius:50%;
+  padding: 15px;
+  height:40px;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  /* font-weight: bold; */
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  cursor:pointer;
+  border: none;
+}
+
+.decimal{
+  background-color:#1b1f1f;
+  color:mintcream;
+  border-radius:50%;
+  padding: 15px;
+  height:40px;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  /* font-weight: bold; */
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  cursor:pointer;
+  border: none;
 }
