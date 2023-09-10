@@ -39,3 +39,14 @@
 body {
   font-family: sans-serif;
 }
+
+.numbers{
+  border: solid black 2px;
+  padding: 15px;
+  background-color:#1b1f1f;
+  cursor:pointer;
+  color:mintcream;
+  border-radius:50%;
+  height:40px;
+
+}
