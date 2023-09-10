@@ -41,12 +41,18 @@ body {
 }
 
 .numbers{
-  border: solid black 2px;
-  padding: 15px;
+  /* border: solid black 2px; */
   background-color:#1b1f1f;
-  cursor:pointer;
   color:mintcream;
   border-radius:50%;
+  padding: 15px;
   height:40px;
-
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  cursor:pointer;
 }
