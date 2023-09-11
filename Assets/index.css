@@ -88,7 +88,15 @@ body {
   height: 0.2em;
 }
 
-/* button {
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+}
+
+button {
   height: 3em;
   width: 3em;
   border: 0;
@@ -96,108 +104,6 @@ body {
   margin: 0.2em;
   font-size: 1.4rem;
   cursor: pointer;
-} */
-
-.numbers {
-  background-color: var(--num-btn-bg-color);
-  color: var(--neutral-color);
-  border-radius: 50%;
-  padding: 15px;
-  height: 40px;
-  font-size: 20px;
-  justify-content: center;
-  text-align: center;
-  /* font-weight: bold; */
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  cursor: pointer;
-  border: none;
-}
-
-.operators {
-  background-color: var(--op-btn-bg-color);
-  color: var(--green-2);
-  border-radius: 50%;
-  padding: 15px;
-  height: 40px;
-  font-size: 20px;
-  justify-content: center;
-  text-align: center;
-  /* font-weight: bold; */
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  cursor: pointer;
-  border: none;
-}
-
-.equals-to {
-  background-color: var(--green-2);
-  color: var(--neutral-color);
-  border-radius: 50%;
-  padding: 15px;
-  height: 40px;
-  font-size: 20px;
-  justify-content: center;
-  text-align: center;
-  /* font-weight: bold; */
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  cursor: pointer;
-  border: none;
-}
-
-.bracket {
-  background-color: var(--op-btn-bg-color);
-  color: var(--green-2);
-  border-radius: 50%;
-  padding: 15px;
-  height: 40px;
-  font-size: 20px;
-  justify-content: center;
-  text-align: center;
-  /* font-weight: bold; */
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  cursor: pointer;
-  border: none;
-}
-
-.clear {
-  background-color: var(--op-btn-bg-color);
-  color: var(--red-1);
-  border-radius: 50%;
-  padding: 15px;
-  height: 40px;
-  font-size: 20px;
-  justify-content: center;
-  text-align: center;
-  /* font-weight: bold; */
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  cursor: pointer;
-  border: none;
-}
-
-.decimal {
-  background-color: var(--op-btn-bg-color);
-  color: var(--neutral-color);
-  border-radius: 50%;
-  padding: 15px;
-  height: 40px;
-  font-size: 20px;
-  justify-content: center;
-  text-align: center;
-  /* font-weight: bold; */
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  cursor: pointer;
-  border: none;
 }
 
 .text-h5 {
