@@ -59,7 +59,7 @@ body {
   border-radius: 12px;
   border: 2px solid var(--green-2);
   box-shadow: 0 0 30px var(--shadow-color3);
-  background-color:var(--bg-color);
+  background-color: var(--bg-color);
 }
 
 #display {
@@ -79,17 +79,16 @@ body {
   height: 0.2em;
 }
 
-
 .row {
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 9px;
   justify-content: center;
 }
 
 button {
-  background-color:var(--shadow-color3);
-  color:var(--neutral-color);
+  background-color: var(--shadow-color3);
+  color: var(--neutral-color);
   height: 3em;
   width: 3em;
   border: 0;
@@ -100,25 +99,23 @@ button {
 }
 
 .text-h5 {
-  position: absolute;
-  bottom: 1em;
+  position: fixed;
+  bottom: 0.5em;
   text-align: center;
 }
 
-
-.operators{
-  color:var(--green-1);
+.operators {
+  color: var(--green-1);
 }
 
-.equals-to{
-  background-color:var(--green-1);
+.equals-to {
+  background-color: var(--green-1);
 }
 
-.bracket{
-  color:var(--green-1);
+.bracket {
+  color: var(--green-1);
 }
 
-.clear{
-  color:var(--red-1);
+.clear {
+  color: var(--red-1);
 }
-
