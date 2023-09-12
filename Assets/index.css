@@ -119,3 +119,17 @@ button {
 .clear {
   color: var(--red-1);
 }
+
+button:hover{
+  background: var(--shadow-color2);
+}
+
+.operators:hover,
+.operators:focus{
+  background: var(--neutral-color);
+}
+
+.equals-to:hover{
+  background: var(--neutral-color);
+  color: var(--green-1);
+}
