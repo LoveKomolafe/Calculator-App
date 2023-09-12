@@ -95,7 +95,7 @@ button {
   border: 0;
   border-radius: 35px;
   margin: 0.2em;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 
@@ -107,24 +107,18 @@ button {
 
 
 .operators{
-  background-color:var(--shadow-color3);
-  color:var(--green-2);
+  color:var(--green-1);
 }
 
 .equals-to{
-  background-color:var(--green-2);
-  color:var(--neutral-color);
+  background-color:var(--green-1);
 }
 
 .bracket{
-  background-color:var(--shadow-color3);
-  color:var(--green-2);
-  
+  color:var(--green-1);
 }
 
 .clear{
-  background-color:var(--shadow-color3);
   color:var(--red-1);
-  
 }
 
