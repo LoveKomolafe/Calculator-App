@@ -72,6 +72,7 @@ body {
   font-size: 1.8rem;
   margin-bottom: 1em;
   overflow-x: scroll;
+  color: var(--neutral-color);
 }
 
 #display::-webkit-scrollbar {

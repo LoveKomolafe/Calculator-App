@@ -22,41 +22,41 @@
         <div class="buttons">
 
             <div class="row">
-                <button class="clear">C</button>
-                <button class="bracket">()</button>
-                <button class="operators">%</button>
-                <button class="operators">&divide;</button>
+                <button onclick="clearTheDisplay()" class="clear">C</button>
+                <button class="bracket">( )</button>
+                <button onclick="percentage()" class="operators">%</button>
+                <button onclick="toDisplay('/')" class="operators">&divide;</button>
             </div>
             <br>
 
             <div class="row">
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button class="operators">&times;</button>
+                <button onclick="toDisplay('7')">7</button>
+                <button onclick="toDisplay('8')">8</button>
+                <button onclick="toDisplay('9')">9</button>
+                <button onclick="toDisplay('*')" class="operators">&times;</button>
             </div>
             <br>
 
             <div class="row">
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button class="operators">-</button>
+                <button onclick="toDisplay('4')">4</button>
+                <button onclick="toDisplay('5')">5</button>
+                <button onclick="toDisplay('6')">6</button>
+                <button onclick="toDisplay('-')" class="operators">-</button>
             </div>
             <br>
 
             <div class="row">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button class="operators">+</button>
+                <button onclick="toDisplay('1')">1</button>
+                <button onclick="toDisplay('2')">2</button>
+                <button onclick="toDisplay('3')">3</button>
+                <button onclick="toDisplay('+')" class="operators">+</button>
             </div>
             <br>
 
             <div class="row">
-                <button>00</button>
-                <button>0</button>
-                <button>.</button>
+                <button onclick="toDisplay('00')">00</button>
+                <button onclick="toDisplay('0')">0</button>
+                <button onclick="toDisplay('.')">.</button>
                 <button class="equals-to">=</button>
             </div>
 
