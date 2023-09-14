@@ -42,6 +42,12 @@ function percentage() {
   display.textContent = display.textContent / 100;
 }
 
+// Creating a function to delete the last character
+function deleteTheLastCharacter() {
+  currentExpression = currentExpression.slice(0, -1);
+  display.textContent = currentExpression;
+}
+
 const equalsButton = document.querySelector(".equals-to"); // Query selecting the equals button
 
 equalsButton.addEventListener("click", calculateResult); // Adding an event listener to the equals button
