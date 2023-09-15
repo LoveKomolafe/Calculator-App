@@ -11,37 +11,62 @@
 </head>
 
 <body>
-    <h1>Calculator</h1>
-    <input type="text" id="display">
-    <input type="button" id="clear_result" value="c" onclick="clearScreen()" class="clear">
-    <br>
-    <button class="addOne">1</button>
-    <button class="addTwo">2</button>
-    <button class="addThree">3</button>
-    <button class="operations">+</button>
-    <br>
-    <button class="addFour">4</button>
-    <button class="addFive">5</button>
-    <button class="addSix">6</button>
-    <button class="operations">-</button>
-    <br>
-    <tr>
-        <td><button class="addSeven">7</button></td>
-        <td><button class="addEight">8</button></td>
-        <td><button class="addNine">9</button></td>
-        <td><button class="operations">*</button></td>
-    </tr>
-    <br>
-    <button class="addZero">0</button>
-    <button class="addBracket">()</button>
-    <button class="addDecimal">.</button>
-    <button class="operations">/</button>
-    
-    
+    <div class="container">
+
+        <!-- Supposed Input Area -->
+        <div class="display-screen">
+            <div id="display"></div>
+        </div>
 
 
+        <div class="buttons">
+
+            <div class="row">
+                <button onclick="clearTheDisplay()" class="clear">C</button>
+                <button onclick="deleteTheLastCharacter()" class="delete">DE</button>
+                <button onclick="percentage()" class="operators">%</button>
+                <button onclick="toDisplay('/')" class="operators">&divide;</button>
+            </div>
+            <br>
+
+            <div class="row">
+                <button onclick="toDisplay('7')">7</button>
+                <button onclick="toDisplay('8')">8</button>
+                <button onclick="toDisplay('9')">9</button>
+                <button onclick="toDisplay('*')" class="operators">&times;</button>
+            </div>
+            <br>
+
+            <div class="row">
+                <button onclick="toDisplay('4')">4</button>
+                <button onclick="toDisplay('5')">5</button>
+                <button onclick="toDisplay('6')">6</button>
+                <button onclick="toDisplay('-')" class="operators">-</button>
+            </div>
+            <br>
+
+            <div class="row">
+                <button onclick="toDisplay('1')">1</button>
+                <button onclick="toDisplay('2')">2</button>
+                <button onclick="toDisplay('3')">3</button>
+                <button onclick="toDisplay('+')" class="operators">+</button>
+            </div>
+            <br>
+
+            <div class="row">
+                <button onclick="toDisplay('00')">00</button>
+                <button onclick="toDisplay('0')">0</button>
+                <button onclick="toDisplay('.')">.</button>
+                <button class="equals-to">=</button>
+            </div>
+
+        </div>
+
+
+    </div>
+    <h5 class="text-h5">Calculator ❤️ by Circle-29</h5>
     <!-- Moved the script element from the head to the body -->
-    <script src="/Assets/index.js"></script>
+    <script src="./Assets/index.js"></script>
 </body>
 
 </html>
