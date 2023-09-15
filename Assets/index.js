@@ -31,7 +31,7 @@ function calculateResult() {
         } else {
             display.textContent = result;
             
-            // continue further calculation on the result display 
+            // continue further calculation on the result from display 
             currentExpression = result;
         }
     } catch (error) {
