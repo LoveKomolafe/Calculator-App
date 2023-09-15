@@ -46,7 +46,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
+  font-weight: 600;
+=======
   font-weight: 500;
+>>>>>>> bed2910a857b8b49cdea1a4393b56f7f23234f13
   text-align: center;
   padding: 1rem;
   background-color: var(--gray-color);
@@ -97,6 +101,10 @@ button {
   margin: 0.2em;
   font-size: 1.4rem;
   cursor: pointer;
+<<<<<<< HEAD
+  font-weight: 600;
+=======
+>>>>>>> bed2910a857b8b49cdea1a4393b56f7f23234f13
 }
 
 .text-h5 {
@@ -121,15 +129,29 @@ button {
   color: var(--red-1);
 }
 
+<<<<<<< HEAD
+button:hover {
+=======
 .delete {
   color: var(--red-2);
 }
 
 button:hover{
+>>>>>>> bed2910a857b8b49cdea1a4393b56f7f23234f13
   background: var(--shadow-color2);
 }
 
 .operators:hover,
+<<<<<<< HEAD
+.operators:focus {
+  background: var(--neutral-color);
+}
+
+.equals-to:hover {
+  background: var(--neutral-color);
+  color: var(--green-1);
+}
+=======
 .operators:focus{
   background: var(--neutral-color);
 }
@@ -138,3 +160,4 @@ button:hover{
   background: var(--neutral-color);
   color: var(--green-1);
 }
+>>>>>>> bed2910a857b8b49cdea1a4393b56f7f23234f13
