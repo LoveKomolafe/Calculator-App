@@ -35,5 +35,10 @@ function percentage() {
     display.textContent = display.textContent / 100;
 }
 
+// Creating a function for Delete Button
+function deleteButton() {
+    display.textContent = display.textContent.slice(0, -1);
+    currentExpression = display.textContent;
+}
 
 
