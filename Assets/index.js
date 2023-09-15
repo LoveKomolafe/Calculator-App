@@ -1,6 +1,8 @@
- // Query selecting the display id from the html
+// Query selecting the display id from the html
 const display = document.querySelector('#display');
 
+// Query selecting the equals button
+const equalsButton = document.querySelector('.equals-to');
 // console.log(display); // Testing the query selector
 
 let currentExpression = ''; // Creating a variable to store the current expression
@@ -23,14 +25,15 @@ function clearTheDisplay() {
 
 // creating a function to calculate result
 function calculateResult() {
-    
+    display.textContent = eval(display.textContent);
+
 }
+equalsButton.addEventListener('click', calculateResult); // Adding an event listener to the equals button 
 
 // Creating a function to calculate percentage
 function percentage() {
     display.textContent = display.textContent / 100;
 }
 
-const equalsButton = document.querySelector('.equals-to'); // Query selecting the equals button
 
-equalsButton.addEventListener('click', calculateResult); // Adding an event listener to the equals button 
+
