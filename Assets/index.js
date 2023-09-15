@@ -30,6 +30,9 @@ function calculateResult() {
             display.textContent = "Error";
         } else {
             display.textContent = result;
+            
+            // continue further calculation on the result display 
+            currentExpression = result;
         }
     } catch (error) {
         // still handles any errors that are not caught by the first check
@@ -40,6 +43,9 @@ function calculateResult() {
 // Creating a function to calculate percentage
 function percentage() {
     display.textContent = display.textContent / 100;
+
+    // continue evalution after getting the percentage
+    currentExpression = display.textContent;
 }
 
 // Creating a function to delete the last character
