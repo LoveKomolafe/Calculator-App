@@ -111,7 +111,7 @@ button {
 .text-h5 {
   position: fixed;
   bottom: 0.5em;
-  text-align: center;
+  right: 1em;
 }
 
 .operators {
